@@ -3,6 +3,7 @@ from flask import Flask
 from models import setup_db
 from flask_cors import CORS
 
+#Example to use render platform
 def create_app(test_config=None):
 
     app = Flask(__name__)
